@@ -1,0 +1,18 @@
+  <div class="container-fluid">
+    <div class="card">
+      <form [formGroup]="updateForm" (ngSubmit)="onUpdate()">
+          <div class="form-group">
+            <h3>Name Work</h3>
+            <input type="text" class="form-control" formControlName="name" required>
+            <br>
+            <h3>Detail</h3>
+            <textarea class="form-control" rows="3" formControlName="detail" required></textarea><br>
+            <button class="btn" type="submit"><i class="fas fa-plus"></i></button>
+            <button type="button" class="backstep" routerLink="/all-work"><i class="fas fa-undo-alt"></i></button>
+          </div>
+      </form>
+    </div>
+  </div>
+
+
+

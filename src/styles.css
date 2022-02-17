@@ -1,1 +1,30 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~ngx-toastr/toastr';
+
+body{
+
+  background:linear-gradient(105.70305099469942deg, rgba(73, 177, 242,1) 12.432291666666666%,rgba(73, 176, 241,1) 12.432291666666666%,rgba(158, 0, 236,1) 74.30729166666667%);
+  margin: 0;
+}
+
+
+.form-group{
+
+  margin: auto;
+  width: 50%;
+
+}
+
+.footer-content{
+
+  position:fixed;
+  bottom: 0;
+
+
+}
+
+html, body {
+
+  height: 100%;
+  width: 100%;
+
+}

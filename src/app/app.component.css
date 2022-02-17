@@ -1,0 +1,30 @@
+.container-fluid{
+
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Prompt', sans-serif;
+
+  /* background-image: url(./../assets/images/arabica-1127.png);
+  background-repeat: no-repeat;
+  background-size: 25%;
+  background-position:right bottom;
+  background-attachment: fixed; */
+
+}
+
+.img-custom{
+
+  position: relative;
+
+
+}
+
+.img-custom img{
+
+  position: absolute;
+  width: 25%;
+  left: 75%;
+  margin-top:15%;
+
+}
+
+

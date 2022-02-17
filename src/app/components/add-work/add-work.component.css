@@ -1,0 +1,56 @@
+/* Style buttons */
+.container-fluid{
+
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Prompt', sans-serif;
+}
+
+
+
+.btn {
+  background-color: rgb(0, 238, 99); /* Blue background */
+  border: none; /* Remove borders */
+  border-radius: 8px;
+  color: white; /* White text */
+  padding: 12px 16px; /* Some padding */
+  font-size: 22px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: rgb(129, 129, 129);
+}
+
+.form-group{
+
+  width: 70%;
+}
+
+
+.backstep{
+
+  background-color: rgb(253, 226, 75); /* Blue background */
+  border-radius: 8px;
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 15px 16px; /* Some padding */
+  font-size: 19px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+  float: right;
+
+}
+
+.backstep:hover {
+  background-color: rgb(129, 129, 129);
+}
+
+.card{
+
+    height: 25rem;
+    margin: auto;
+    width: 55%;
+    padding-top: 35px;
+    border-radius: 15px;
+
+  }
